@@ -1,0 +1,7 @@
+idrops_input/figures/
+templates/QUASAR/dusty/
+templates/QUASAR/nored/
+idrops_input/OUTPUT_QUASAR/
+idrops_input/OUTPUT_DWARF/
+idrops_input/*.cat
+zdrops_input/

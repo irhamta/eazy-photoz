@@ -1,0 +1,143 @@
+# Template definition file
+#
+# No blank lines allowed (for now).
+#
+# Column definitions:
+#   1. Template number
+#   2. Template file name
+#   3. Lambda_conv (multiplicative factor to correct wavelength units)
+#   4. Age of template model in Gyr (0 means template is always used)
+#   5. Template error amplitude (for INDIVIDUAL template fits)
+#   6. Comma/space separated list of template numbers to be combined
+#      with current template if combined fits are enabled.
+#
+# Sample entry:
+# 1 [path_to_file]/template1.sed 1.0_lines 14.7 0.2 2,3,5
+1	templates/QUASAR/dusty/Banados2016_avg_extrapolated_calz00_ebv0.000.dat	1.0 0 1.0
+2	templates/QUASAR/dusty/Banados2016_avg_extrapolated_calz00_ebv0.025.dat	1.0 0 1.0
+3	templates/QUASAR/dusty/Banados2016_avg_extrapolated_calz00_ebv0.050.dat	1.0 0 1.0
+4	templates/QUASAR/dusty/Banados2016_avg_extrapolated_calz00_ebv0.100.dat	1.0 0 1.0
+5	templates/QUASAR/dusty/Banados2016_hlya_extrapolated_calz00_ebv0.000.dat	1.0 0 1.0
+6	templates/QUASAR/dusty/Banados2016_hlya_extrapolated_calz00_ebv0.025.dat	1.0 0 1.0
+7	templates/QUASAR/dusty/Banados2016_hlya_extrapolated_calz00_ebv0.050.dat	1.0 0 1.0
+8	templates/QUASAR/dusty/Banados2016_hlya_extrapolated_calz00_ebv0.100.dat	1.0 0 1.0
+9	templates/QUASAR/dusty/Banados2016_llya_extrapolated_calz00_ebv0.000.dat	1.0 0 1.0
+10	templates/QUASAR/dusty/Banados2016_llya_extrapolated_calz00_ebv0.025.dat	1.0 0 1.0
+11	templates/QUASAR/dusty/Banados2016_llya_extrapolated_calz00_ebv0.050.dat	1.0 0 1.0
+12	templates/QUASAR/dusty/Banados2016_llya_extrapolated_calz00_ebv0.100.dat	1.0 0 1.0
+13	templates/QUASAR/dusty/Harris2015_extrapolated_calz00_ebv0.000.dat	1.0 0 1.0
+14	templates/QUASAR/dusty/Harris2015_extrapolated_calz00_ebv0.025.dat	1.0 0 1.0
+15	templates/QUASAR/dusty/Harris2015_extrapolated_calz00_ebv0.050.dat	1.0 0 1.0
+16	templates/QUASAR/dusty/Harris2015_extrapolated_calz00_ebv0.100.dat	1.0 0 1.0
+17	templates/QUASAR/dusty/Jensen2016_extrapolated_10_calz00_ebv0.000.dat	1.0 0 1.0
+18	templates/QUASAR/dusty/Jensen2016_extrapolated_10_calz00_ebv0.025.dat	1.0 0 1.0
+19	templates/QUASAR/dusty/Jensen2016_extrapolated_10_calz00_ebv0.050.dat	1.0 0 1.0
+20	templates/QUASAR/dusty/Jensen2016_extrapolated_10_calz00_ebv0.100.dat	1.0 0 1.0
+21	templates/QUASAR/dusty/Jensen2016_extrapolated_11_calz00_ebv0.000.dat	1.0 0 1.0
+22	templates/QUASAR/dusty/Jensen2016_extrapolated_11_calz00_ebv0.025.dat	1.0 0 1.0
+23	templates/QUASAR/dusty/Jensen2016_extrapolated_11_calz00_ebv0.050.dat	1.0 0 1.0
+24	templates/QUASAR/dusty/Jensen2016_extrapolated_11_calz00_ebv0.100.dat	1.0 0 1.0
+25	templates/QUASAR/dusty/Jensen2016_extrapolated_12_calz00_ebv0.000.dat	1.0 0 1.0
+26	templates/QUASAR/dusty/Jensen2016_extrapolated_12_calz00_ebv0.025.dat	1.0 0 1.0
+27	templates/QUASAR/dusty/Jensen2016_extrapolated_12_calz00_ebv0.050.dat	1.0 0 1.0
+28	templates/QUASAR/dusty/Jensen2016_extrapolated_12_calz00_ebv0.100.dat	1.0 0 1.0
+29	templates/QUASAR/dusty/Jensen2016_extrapolated_13_calz00_ebv0.000.dat	1.0 0 1.0
+30	templates/QUASAR/dusty/Jensen2016_extrapolated_13_calz00_ebv0.025.dat	1.0 0 1.0
+31	templates/QUASAR/dusty/Jensen2016_extrapolated_13_calz00_ebv0.050.dat	1.0 0 1.0
+32	templates/QUASAR/dusty/Jensen2016_extrapolated_13_calz00_ebv0.100.dat	1.0 0 1.0
+33	templates/QUASAR/dusty/Jensen2016_extrapolated_14_calz00_ebv0.000.dat	1.0 0 1.0
+34	templates/QUASAR/dusty/Jensen2016_extrapolated_14_calz00_ebv0.025.dat	1.0 0 1.0
+35	templates/QUASAR/dusty/Jensen2016_extrapolated_14_calz00_ebv0.050.dat	1.0 0 1.0
+36	templates/QUASAR/dusty/Jensen2016_extrapolated_14_calz00_ebv0.100.dat	1.0 0 1.0
+37	templates/QUASAR/dusty/Jensen2016_extrapolated_15_calz00_ebv0.000.dat	1.0 0 1.0
+38	templates/QUASAR/dusty/Jensen2016_extrapolated_15_calz00_ebv0.025.dat	1.0 0 1.0
+39	templates/QUASAR/dusty/Jensen2016_extrapolated_15_calz00_ebv0.050.dat	1.0 0 1.0
+40	templates/QUASAR/dusty/Jensen2016_extrapolated_15_calz00_ebv0.100.dat	1.0 0 1.0
+41	templates/QUASAR/dusty/Jensen2016_extrapolated_16_calz00_ebv0.000.dat	1.0 0 1.0
+42	templates/QUASAR/dusty/Jensen2016_extrapolated_16_calz00_ebv0.025.dat	1.0 0 1.0
+43	templates/QUASAR/dusty/Jensen2016_extrapolated_16_calz00_ebv0.050.dat	1.0 0 1.0
+44	templates/QUASAR/dusty/Jensen2016_extrapolated_16_calz00_ebv0.100.dat	1.0 0 1.0
+45	templates/QUASAR/dusty/Jensen2016_extrapolated_17_calz00_ebv0.000.dat	1.0 0 1.0
+46	templates/QUASAR/dusty/Jensen2016_extrapolated_17_calz00_ebv0.025.dat	1.0 0 1.0
+47	templates/QUASAR/dusty/Jensen2016_extrapolated_17_calz00_ebv0.050.dat	1.0 0 1.0
+48	templates/QUASAR/dusty/Jensen2016_extrapolated_17_calz00_ebv0.100.dat	1.0 0 1.0
+49	templates/QUASAR/dusty/Jensen2016_extrapolated_18_calz00_ebv0.000.dat	1.0 0 1.0
+50	templates/QUASAR/dusty/Jensen2016_extrapolated_18_calz00_ebv0.025.dat	1.0 0 1.0
+51	templates/QUASAR/dusty/Jensen2016_extrapolated_18_calz00_ebv0.050.dat	1.0 0 1.0
+52	templates/QUASAR/dusty/Jensen2016_extrapolated_18_calz00_ebv0.100.dat	1.0 0 1.0
+53	templates/QUASAR/dusty/Jensen2016_extrapolated_19_calz00_ebv0.000.dat	1.0 0 1.0
+54	templates/QUASAR/dusty/Jensen2016_extrapolated_19_calz00_ebv0.025.dat	1.0 0 1.0
+55	templates/QUASAR/dusty/Jensen2016_extrapolated_19_calz00_ebv0.050.dat	1.0 0 1.0
+56	templates/QUASAR/dusty/Jensen2016_extrapolated_19_calz00_ebv0.100.dat	1.0 0 1.0
+57	templates/QUASAR/dusty/Jensen2016_extrapolated_1_calz00_ebv0.000.dat	1.0 0 1.0
+58	templates/QUASAR/dusty/Jensen2016_extrapolated_1_calz00_ebv0.025.dat	1.0 0 1.0
+59	templates/QUASAR/dusty/Jensen2016_extrapolated_1_calz00_ebv0.050.dat	1.0 0 1.0
+60	templates/QUASAR/dusty/Jensen2016_extrapolated_1_calz00_ebv0.100.dat	1.0 0 1.0
+61	templates/QUASAR/dusty/Jensen2016_extrapolated_20_calz00_ebv0.000.dat	1.0 0 1.0
+62	templates/QUASAR/dusty/Jensen2016_extrapolated_20_calz00_ebv0.025.dat	1.0 0 1.0
+63	templates/QUASAR/dusty/Jensen2016_extrapolated_20_calz00_ebv0.050.dat	1.0 0 1.0
+64	templates/QUASAR/dusty/Jensen2016_extrapolated_20_calz00_ebv0.100.dat	1.0 0 1.0
+65	templates/QUASAR/dusty/Jensen2016_extrapolated_21_calz00_ebv0.000.dat	1.0 0 1.0
+66	templates/QUASAR/dusty/Jensen2016_extrapolated_21_calz00_ebv0.025.dat	1.0 0 1.0
+67	templates/QUASAR/dusty/Jensen2016_extrapolated_21_calz00_ebv0.050.dat	1.0 0 1.0
+68	templates/QUASAR/dusty/Jensen2016_extrapolated_21_calz00_ebv0.100.dat	1.0 0 1.0
+69	templates/QUASAR/dusty/Jensen2016_extrapolated_22_calz00_ebv0.000.dat	1.0 0 1.0
+70	templates/QUASAR/dusty/Jensen2016_extrapolated_22_calz00_ebv0.025.dat	1.0 0 1.0
+71	templates/QUASAR/dusty/Jensen2016_extrapolated_22_calz00_ebv0.050.dat	1.0 0 1.0
+72	templates/QUASAR/dusty/Jensen2016_extrapolated_22_calz00_ebv0.100.dat	1.0 0 1.0
+73	templates/QUASAR/dusty/Jensen2016_extrapolated_23_calz00_ebv0.000.dat	1.0 0 1.0
+74	templates/QUASAR/dusty/Jensen2016_extrapolated_23_calz00_ebv0.025.dat	1.0 0 1.0
+75	templates/QUASAR/dusty/Jensen2016_extrapolated_23_calz00_ebv0.050.dat	1.0 0 1.0
+76	templates/QUASAR/dusty/Jensen2016_extrapolated_23_calz00_ebv0.100.dat	1.0 0 1.0
+77	templates/QUASAR/dusty/Jensen2016_extrapolated_24_calz00_ebv0.000.dat	1.0 0 1.0
+78	templates/QUASAR/dusty/Jensen2016_extrapolated_24_calz00_ebv0.025.dat	1.0 0 1.0
+79	templates/QUASAR/dusty/Jensen2016_extrapolated_24_calz00_ebv0.050.dat	1.0 0 1.0
+80	templates/QUASAR/dusty/Jensen2016_extrapolated_24_calz00_ebv0.100.dat	1.0 0 1.0
+81	templates/QUASAR/dusty/Jensen2016_extrapolated_25_calz00_ebv0.000.dat	1.0 0 1.0
+82	templates/QUASAR/dusty/Jensen2016_extrapolated_25_calz00_ebv0.025.dat	1.0 0 1.0
+83	templates/QUASAR/dusty/Jensen2016_extrapolated_25_calz00_ebv0.050.dat	1.0 0 1.0
+84	templates/QUASAR/dusty/Jensen2016_extrapolated_25_calz00_ebv0.100.dat	1.0 0 1.0
+85	templates/QUASAR/dusty/Jensen2016_extrapolated_26_calz00_ebv0.000.dat	1.0 0 1.0
+86	templates/QUASAR/dusty/Jensen2016_extrapolated_26_calz00_ebv0.025.dat	1.0 0 1.0
+87	templates/QUASAR/dusty/Jensen2016_extrapolated_26_calz00_ebv0.050.dat	1.0 0 1.0
+88	templates/QUASAR/dusty/Jensen2016_extrapolated_26_calz00_ebv0.100.dat	1.0 0 1.0
+89	templates/QUASAR/dusty/Jensen2016_extrapolated_27_calz00_ebv0.000.dat	1.0 0 1.0
+90	templates/QUASAR/dusty/Jensen2016_extrapolated_27_calz00_ebv0.025.dat	1.0 0 1.0
+91	templates/QUASAR/dusty/Jensen2016_extrapolated_27_calz00_ebv0.050.dat	1.0 0 1.0
+92	templates/QUASAR/dusty/Jensen2016_extrapolated_27_calz00_ebv0.100.dat	1.0 0 1.0
+93	templates/QUASAR/dusty/Jensen2016_extrapolated_2_calz00_ebv0.000.dat	1.0 0 1.0
+94	templates/QUASAR/dusty/Jensen2016_extrapolated_2_calz00_ebv0.025.dat	1.0 0 1.0
+95	templates/QUASAR/dusty/Jensen2016_extrapolated_2_calz00_ebv0.050.dat	1.0 0 1.0
+96	templates/QUASAR/dusty/Jensen2016_extrapolated_2_calz00_ebv0.100.dat	1.0 0 1.0
+97	templates/QUASAR/dusty/Jensen2016_extrapolated_3_calz00_ebv0.000.dat	1.0 0 1.0
+98	templates/QUASAR/dusty/Jensen2016_extrapolated_3_calz00_ebv0.025.dat	1.0 0 1.0
+99	templates/QUASAR/dusty/Jensen2016_extrapolated_3_calz00_ebv0.050.dat	1.0 0 1.0
+100	templates/QUASAR/dusty/Jensen2016_extrapolated_3_calz00_ebv0.100.dat	1.0 0 1.0
+101	templates/QUASAR/dusty/Jensen2016_extrapolated_4_calz00_ebv0.000.dat	1.0 0 1.0
+102	templates/QUASAR/dusty/Jensen2016_extrapolated_4_calz00_ebv0.025.dat	1.0 0 1.0
+103	templates/QUASAR/dusty/Jensen2016_extrapolated_4_calz00_ebv0.050.dat	1.0 0 1.0
+104	templates/QUASAR/dusty/Jensen2016_extrapolated_4_calz00_ebv0.100.dat	1.0 0 1.0
+105	templates/QUASAR/dusty/Jensen2016_extrapolated_5_calz00_ebv0.000.dat	1.0 0 1.0
+106	templates/QUASAR/dusty/Jensen2016_extrapolated_5_calz00_ebv0.025.dat	1.0 0 1.0
+107	templates/QUASAR/dusty/Jensen2016_extrapolated_5_calz00_ebv0.050.dat	1.0 0 1.0
+108	templates/QUASAR/dusty/Jensen2016_extrapolated_5_calz00_ebv0.100.dat	1.0 0 1.0
+109	templates/QUASAR/dusty/Jensen2016_extrapolated_6_calz00_ebv0.000.dat	1.0 0 1.0
+110	templates/QUASAR/dusty/Jensen2016_extrapolated_6_calz00_ebv0.025.dat	1.0 0 1.0
+111	templates/QUASAR/dusty/Jensen2016_extrapolated_6_calz00_ebv0.050.dat	1.0 0 1.0
+112	templates/QUASAR/dusty/Jensen2016_extrapolated_6_calz00_ebv0.100.dat	1.0 0 1.0
+113	templates/QUASAR/dusty/Jensen2016_extrapolated_7_calz00_ebv0.000.dat	1.0 0 1.0
+114	templates/QUASAR/dusty/Jensen2016_extrapolated_7_calz00_ebv0.025.dat	1.0 0 1.0
+115	templates/QUASAR/dusty/Jensen2016_extrapolated_7_calz00_ebv0.050.dat	1.0 0 1.0
+116	templates/QUASAR/dusty/Jensen2016_extrapolated_7_calz00_ebv0.100.dat	1.0 0 1.0
+117	templates/QUASAR/dusty/Jensen2016_extrapolated_8_calz00_ebv0.000.dat	1.0 0 1.0
+118	templates/QUASAR/dusty/Jensen2016_extrapolated_8_calz00_ebv0.025.dat	1.0 0 1.0
+119	templates/QUASAR/dusty/Jensen2016_extrapolated_8_calz00_ebv0.050.dat	1.0 0 1.0
+120	templates/QUASAR/dusty/Jensen2016_extrapolated_8_calz00_ebv0.100.dat	1.0 0 1.0
+121	templates/QUASAR/dusty/Jensen2016_extrapolated_9_calz00_ebv0.000.dat	1.0 0 1.0
+122	templates/QUASAR/dusty/Jensen2016_extrapolated_9_calz00_ebv0.025.dat	1.0 0 1.0
+123	templates/QUASAR/dusty/Jensen2016_extrapolated_9_calz00_ebv0.050.dat	1.0 0 1.0
+124	templates/QUASAR/dusty/Jensen2016_extrapolated_9_calz00_ebv0.100.dat	1.0 0 1.0
+125	templates/QUASAR/dusty/Selsing2015_extrapolated_calz00_ebv0.000.dat	1.0 0 1.0
+126	templates/QUASAR/dusty/Selsing2015_extrapolated_calz00_ebv0.025.dat	1.0 0 1.0
+127	templates/QUASAR/dusty/Selsing2015_extrapolated_calz00_ebv0.050.dat	1.0 0 1.0
+128	templates/QUASAR/dusty/Selsing2015_extrapolated_calz00_ebv0.100.dat	1.0 0 1.0
