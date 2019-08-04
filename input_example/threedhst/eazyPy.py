@@ -1139,6 +1139,13 @@ def plot_SED2(idx=20, writePNG=True, MAIN_OUTPUT_FILE = 'photz',
                           OUTPUT_DIRECTORY=OUTPUT_DIRECTORY, \
                           CACHE_FILE = CACHE_FILE, individual_templates=individual_templates, scale_flambda=scale_flambda)
 
+    zgrid, pz = getEazyPz(qz[idx], MAIN_OUTPUT_FILE=MAIN_OUTPUT_FILE, \
+                                   OUTPUT_DIRECTORY=OUTPUT_DIRECTORY, \
+                                   CACHE_FILE = CACHE_FILE)
+
+    # normalize the pz
+    pz = pz/max(pz)
+
     if fnu:
         temp_sed *= (lambdaz / 5500.)**2
         fobs *= (lci/5500.)**2
@@ -1149,7 +1156,8 @@ def plot_SED2(idx=20, writePNG=True, MAIN_OUTPUT_FILE = 'photz',
     if axes is None:
         return (lci/xrest, obs_sed,
                 fobs, efobs,
-                lambdaz/xrest, temp_sed)
+                lambdaz/xrest, temp_sed,
+                zgrid, pz)
 
 
 
